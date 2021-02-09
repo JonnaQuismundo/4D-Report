@@ -132,6 +132,9 @@ If ($Lon_tableID#0)
 							
 						Else 
 							
+							ARRAY TEXT:C222($tTxt_relationFieldNames; 0)
+							ARRAY LONGINT:C221($tLon_relationFieldIDs; 0)
+							
 							For ($Lon_j; 1; Get last field number:C255($Lon_relationTableID); 1)
 								
 								If (Is field number valid:C1000($Lon_relationTableID; $Lon_j))
